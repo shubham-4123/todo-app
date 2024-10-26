@@ -25,5 +25,5 @@ app.listen(PORT, () => {
 
 // Default route
 app.get('/', (req, res) => {
-    res.send("Vikas bhai ka code run ho gya hain");
+    res.send("running code");
 });
